@@ -7,7 +7,7 @@ This is the code sources of a DRL-based eco-driving control project. It aims to 
 Also, this project support a control framework, where the total toque of front and rear engine is calculated by a PID controller, and the DRL algorithm is used to calculate the coefficient k that decide the distribution of the totol toque. For it, the environment of road and vehicle driving is supported by env_simulink_onedimension.py, with env_1D.mdl being the simulatio of a vehicle and road_generator creat stochastic roads.
 
 
-## Result
+## Result    
 Below is the result of a DDPG agent demo.
 Energy| Speed| Path
 :-----------------------:|:-----------------------:|:-----------------------:|
